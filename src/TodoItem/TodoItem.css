@@ -1,0 +1,52 @@
+.ContainerI{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Items{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2)
+}
+.Icon-d{
+    transition: transform 0.5s ease,color 0.5s;
+}
+.Icon-d:hover {
+    color: red;
+    
+    cursor: pointer;
+    transform: scale(1.8);
+    font-style: bold;
+    
+   
+    
+}
+.p-completed{
+    text-decoration: line-through;
+}
+.Icon-d {
+    margin-right: 5%;
+    font-weight: bolder;
+}
+
+.InputC{
+    margin-left: 5%;
+    transition: transform 0.5s ;
+
+}
+.InputC:hover{
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2)
+    
+    
+}
+
+

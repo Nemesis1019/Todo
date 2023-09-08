@@ -1,0 +1,25 @@
+
+.Inputd{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+Input:focus,Input:hover{
+    transform: scale(1.2);
+    
+    outline-color:#E5BD2E;
+    justify-content: center;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+.Input{
+    align-items: center;
+    
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+}
+
