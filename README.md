@@ -1,14 +1,36 @@
 
-Todo
-A productivity app for everyone to create todo's.
+# Todo app
 
-It is part of my internship as a frontend specialization student.
+Website created in [React](https://es.react.dev/) , [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) and styled with [TailwindCSS](https://tailwindcss.com/) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). 
 
-In this practice I've favored the use of state, react context, I've created my own hook for data persistence in local storage, I also learned to use react portals but above all, I had a lot of fun.
 
-You can access the app through the following link:
-https://todo-indol-eta.vercel.app/
+#  Description
+.It is a productivity app for listing tasks.
 
-The app was based on Create React App. If you'd like, you can take a closer look at the project. To get started, you just need to clone this repository (git clone), install its dependencies (npm i), and run the application (npm start). The application will run in development mode. Open http://localhost:3000 to view it in your browser. The page will reload when you make changes, and you can also check for errors in the console.
+In this practice, the use of state and **React context** was favored. A **custom hook** was created for data persistence in local storage, and **React Portals** were also used.
+
+
+# Configuration
+
+1.- Clone this repository:
+ 
+	https://github.com/Nemesis1019/Todo.git
+
+  
+2.- Go to the main project folder : :
+
+    cd Todo
+
+3.- Install project dependencies :
+
+    npm i
+4 . Start local server :
+
+    npm run dev
+
+# Demo
+At the following link, you'll find a demo of the project.
+[Link](https://todo-indol-eta.vercel.app/)
+
 
 
